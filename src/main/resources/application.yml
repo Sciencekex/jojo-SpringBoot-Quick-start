@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: jojo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test01?serverTimezone=UTC
+    username: "root"
+    password: "123456"
